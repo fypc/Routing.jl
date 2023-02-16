@@ -125,8 +125,8 @@ function solve_cg_rmp(vrptw::VRPTW_Instance; initial_routes=[], veh_cond=("<=",-
     # gurobi_env = Gurobi.Env()
 
     function solve_RMP(routes, cost_routes, incidence, veh_cond)
-        @info("solve_RMP using GLPK.")
-        RMP = Model(GLPK.Optimizer)
+        @info("solve_RMP using HiGHS.")
+        RMP = Model(HiGHS.Optimizer)
         set_R = 1:length(routes)
         set_C = 1:size(incidence, 1)
 

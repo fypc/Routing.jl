@@ -3,12 +3,12 @@ uuid = "8785b77d-c82c-4bf6-9b42-dddedd117a0f"
 authors = ["Changhyun Kwon <chkwon@gmail.com> and contributors"]
 version = "0.1.1"
 
-
 [deps]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 ElasticArrays = "fdbdab4c-e67f-52f5-8c3f-e7b388dad3d4"
 GLPK = "60bf3e95-4087-53dc-ae20-288a0d20c6a6"
 Gurobi = "2e9cd046-0924-5485-92f1-d5272153d98b"
+HiGHS = "87dc4568-4c63-4d18-b0c0-bb2238e4078b"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 LightXML = "9c8b4983-aa76-5018-a973-4c85ecc9e179"
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"

@@ -1,5 +1,5 @@
 using LightXML
-using JuMP, GLPK, Gurobi
+using JuMP, GLPK, Gurobi, HiGHS
 using ElasticArrays
 using DataStructures
 using OffsetArrays
